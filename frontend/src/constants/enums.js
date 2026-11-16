@@ -1,1 +1,2 @@
 export const GROUPS=['A','B'];export const EVENT_KINDS=['exposure','activation'];export const ROLES=['admin','analyst','viewer'];export const STATES=['queued','running','done','failed'];export const ACTIONS={publish_b:'上线 B',keep_a:'保留 A'};
+export const RULE_STATUSES={draft:'草稿',active:'生效',archived:'已归档'};export const ASSIGNMENT_STATUSES={active:'生效',released:'已释放'};export const EXPERIMENT_STATUSES={active:'运行中',stopped:'已停用'};export const CONFLICT_STATUSES={open:'待排查',resolved:'已解除'};
